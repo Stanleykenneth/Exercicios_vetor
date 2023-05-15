@@ -46,6 +46,7 @@ public class Exercicio16 {
 				System.out.println("Código inválido!");
 			}
 			System.out.println();
+			ler.close();
 		} while (codigo != 0);
 	}
 }
